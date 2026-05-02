@@ -87,7 +87,7 @@ function Navbar() {
       </nav>
     </div>
     <div className="mobile-blur-bg"></div>
-    {/* <!-- for Mobile menu end --> */}
+
     {/* <!-- navbar(desktop) start here-->     */}
     <div className="page-header">
       <div className="container">
