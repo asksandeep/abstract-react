@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Homeservices from "../components/Homeservices";
 import Howwedeliver from "../components/Howwedeliver";
 import Whychooseus from "../components/Whychooseus";
+import Modelssection from "../components/Modelssection";
 import Clientarea from "../components/Clientarea";
 import Technologystack from "../components/Technologystack";
 import Cta from "../components/Cta";
@@ -21,6 +22,7 @@ function Home() {
       <Whychooseus />
       <Clientarea />
       <Technologystack />
+      <Modelssection />
       <Cta />
       <Faq />
       <Footer />
