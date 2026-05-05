@@ -42,7 +42,7 @@ html {
 }
 
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 li,

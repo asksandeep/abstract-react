@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
+
 
 function Homehero() {
   return (
@@ -12,8 +14,8 @@ function Homehero() {
       <h2>Accurate, Reliable, and Industry-Specific Solutions</h2>
       <p>For over 15 years, we've transformed industry challenges into opportunities. We deliver measurable results through custom software and website solutions that are dependable, efficient, and built to scale.</p>
       <div className="btn-area">
-        <a href="contact-us.php" className="requestBtn">Request advice</a>
-        <a href="about-us.php" className="gettoknow">Get to know us</a>
+        <Link to="/contact" className="requestBtn">Request advice</Link>
+        <Link to="/about-us" className="gettoknow">Get to know us</Link>
       </div>
     </div>
     </div>

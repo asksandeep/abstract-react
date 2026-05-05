@@ -14,11 +14,13 @@ import Contact from "./pages/Contact";
 import HireDevelopers from "./pages/HireDevelopers";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />

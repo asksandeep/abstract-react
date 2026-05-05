@@ -79,7 +79,7 @@ export default function Footer() {
         </div>
       </footer >
       <div className="copright">
-        <div className="container">Copyright &copy; abc 2025 Abstract IT Group. All rights reserved &nbsp; | &nbsp; Delivering excellence since <strong>2010</strong>  &nbsp; | &nbsp; <a href="privacy.php">Privacy Policy</a>   &nbsp; | &nbsp; <a href="terms-of-use.php">Terms of Use</a> </div>
+        <div className="container">Copyright &copy; abc 2025 Abstract IT Group. All rights reserved &nbsp; | &nbsp; Delivering excellence since <strong>2010</strong>  &nbsp; | &nbsp; <Link to="/privacy-policy">Privacy Policy</Link>   &nbsp; | &nbsp; <Link to="/terms-of-use">Terms of Use</Link> </div>
       </div>
 
       {/* WhatsApp Sticky */}

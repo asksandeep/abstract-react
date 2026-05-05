@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Homeservices() {
   return (
@@ -12,67 +13,67 @@ export default function Homeservices() {
           <div className="inner">
             <div className="item">
               <span>1</span>
-              <a href="web-app-development.php">
+              <Link to="/web-app-development">
                 <div className="icon"><img src="img/web-app.png" alt="" /></div>
                 <h3>Web Application Development</h3>
                 <p>We design and develop secure, scalable, and high-performance web applications. Our team blends modern design with powerful functionality to create seamless experiences.</p>
-              </a>
+              </Link>
             </div>
             <div className="item">
               <span>2</span>
-              <a href="ai-automation.php">
+              <Link to="/ai-automation">
                 <div className="icon"><img src="img/ai.png" alt="" /></div>
                 <h3>AI Automation</h3>
                 <p>We create intelligent automation solutions that streamline workflows and reduce manual effort. Our AI-driven systems boost efficiency, accuracy, and decision-making across industries.</p>
-              </a>
+              </Link>
             </div>
             <div className="item">
               <span>3</span>
-              <a href="mobile-app-development.php">
+              <Link to="/mobile-app-development">
                 <div className="icon"><img src="img/mobile-app.png" alt="" /></div>
                 <h3>Mobile App Development</h3>
                 <p>We design and develop user-friendly mobile apps tailored to your business needs. Our solutions ensure seamless performance, responsive design, and secure functionality.</p>
-              </a>
+              </Link>
             </div>
             <div className="item">
               <span>4</span>
-              <a href="responsive-ui-ux.php">
+              <Link to="/responsive-uiux">
                 <div className="icon"><img src="img/ui-ux.png" alt="" /></div>
                 <h3>Responsive UI/UX</h3>
                 <p>We craft intuitive and engaging interfaces that deliver seamless user experiences. Our responsive designs adapt perfectly across devices, ensuring accessibility and usability.</p>
-              </a>
+              </Link>
             </div>
             <div className="item">
               <span>5</span>
-              <a href="qa-testing.php">
+              <Link to="/qa-testing-security">
                 <div className="icon"><img src="img/qa.png" alt="" /></div>
                 <h3>QA Testing/Security</h3>
                 <p>We ensure software quality with rigorous testing across functionality, performance, and security. Our QA processes identify and fix issues early to deliver reliable, bug-free solutions.</p>
-              </a>
+              </Link>
             </div>
             <div className="item">
               <span>6</span>
-              <a href="healthcare-management.php">
+              <Link to="/health-care-consultation">
                 <div className="icon"><img src="img/health.png" alt="" /></div>
                 <h3>Health Care Software</h3>
                 <p>We provide digital solutions that simplify healthcare consultation and patient engagement. Our platforms enable secure communication, scheduling, and data management with ease.</p>
-              </a>
+              </Link>
             </div>
             <div className="item">
               <span>7</span>
-              <a href="digital-marketing.php">
+              <Link to="/health-care-consultation">
                 <div className="icon"><img src="img/digital-marketing.png" alt="" /></div>
                 <h3>Digital Marketing</h3>
                 <p>We craft data-driven marketing strategies to boost online visibility and engagement. Our services include SEO, social media, ads, and content tailored to your business goals.</p>
-              </a>
+              </Link>
             </div>
             <div className="item">
               <span>8</span>
-              <a href="custom-software-development.php">
+              <Link to="/software-development">
                 <div className="icon"><img src="img/api.png" alt="" /></div>
                 <h3>Custom Software Development</h3>
                 <p>We build reliable and scalable software solutions tailored to unique business needs. Our development process ensures security, performance, and seamless integration.</p>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
